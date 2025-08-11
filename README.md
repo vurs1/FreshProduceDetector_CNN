@@ -1,5 +1,5 @@
 # FreshProduceDetector_CNN
-This project detects whether fruits are fresh or rotten using a Convolutional Neural Network (CNN). It identifies different fruit types and their freshness based on a dataset of images that it has been trained upon. 
+This project detects whether produces are fresh or rotten using a Convolutional Neural Network (CNN). It identifies different fruit types and their freshness based on a dataset of images that it has been trained upon. 
 Currently, the model can classify the freshness of the following produce:
 **Apple**, **Mango**, **Orange**, **Potato**, and **Tomato**.
 
@@ -16,9 +16,9 @@ Currently, the model can classify the freshness of the following produce:
 
 
 ## About This Project
-I built a CNN using **TensorFlow** and **Keras** to classify fruit images into specific classes like **FreshApple**, **RottenApple**, etc., and also display the **confidence level** of the prediction.  
+I built a CNN using **TensorFlow** and **Keras** to classify produce images into specific classes like **FreshApple**, **RottenApple**, etc., and also display the **confidence level** of the prediction.  
 
-I trained the model on a dataset of labeled fruit images, tested it on unseen images, and achieved strong accuracy in predictions.
+I trained the model on a dataset of labeled produce images, tested it on unseen images, and achieved strong accuracy in predictions.
 
 ## Source Code Architecture
 ```
@@ -37,7 +37,7 @@ FreshProduceDetector_CNN/
 
 **Key Points**:
 - Two convolutional layers with max pooling
-- Dense layer for classification (with 10 output classes: each fruit/freshness combination)
+- Dense layer for classification (with 10 output classes: each produce/freshness combination)
 - 1.6 million trainable parameters
 
 ## How to Set Up and Run
@@ -58,7 +58,7 @@ This will train your CNN and save the model as `fruit_quality_model.h5` in the p
 Edit `src/predict.py` to update the `img_path` variable with the path to your test image. Then run:
 python predict.py
 
-The script will print the predicted fruit class and confidence.
+The script will print the predicted produce class and confidence.
 
 ## Notes
 - Model trained on **64x64 pixel** images.
