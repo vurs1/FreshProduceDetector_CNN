@@ -40,7 +40,7 @@ FreshProduceDetector_CNN/
 - Dense layer for classification (with 10 output classes: each produce/freshness combination)
 - 1.6 million trainable parameters
 
-## [Training Logs] (TrainingLogs.md)
+##[Training Logs](TrainingLogs.md)
 
 ## How to Set Up and Run
 
