@@ -21,7 +21,7 @@ I built a CNN using **TensorFlow** and **Keras** to classify fruit images into s
 I trained the model on a dataset of labeled fruit images, tested it on unseen images, and achieved strong accuracy in predictions.
 
 ## Source Code Architecture
-'''
+```
 FreshProduceDetector_CNN/
 ├── src/
 │   ├── main.py              # Training script – builds and trains the CNN  
@@ -30,11 +30,12 @@ FreshProduceDetector_CNN/
 ├── requirements.txt         # Required Python packages  
 ├── README.md                # Project description and usage instructions  
 ├── training_logs.md         # Screenshots and notes from the training process  
-'''
+```
 
 ## Model Architecture
 <img width="640" height="299" alt="Image" src="https://github.com/user-attachments/assets/7edd66e5-38db-42bf-a3f9-7781546280da" />
-**Key Points:**
+
+**Key Points**:
 - Two convolutional layers with max pooling
 - Dense layer for classification (with 10 output classes: each fruit/freshness combination)
 - 1.6 million trainable parameters
