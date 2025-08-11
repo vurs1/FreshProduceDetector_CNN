@@ -5,7 +5,7 @@ These logs show how the CNN's accuracy and loss evolved over each epoch during t
 
 From the very first epoch, the accuracy improved steadily and both training and validation losses decreased.
 
-# Reasons Why Accuracy Improved During Training
+## Reasons Why Accuracy Improved During Training
 - **Gradient-based learning:** The CNN adjusts its weights using backpropagation and gradient descent after each batch, improving predictions gradually.
 - **Data augmentation:** Applying random transformations (rotation, zoom, flip) to training images helped the model generalize better to unseen variations.
 - **Proper normalization:** Rescaling pixel values to the 0–1 range prevented saturation and helped stable convergence.
