@@ -44,7 +44,7 @@ FreshProduceDetector_CNN/
 
 ### 1. Create and activate your Python virtual environment (optional but recommended):
 python3 -m venv venv
-source venv/bin/activate # macOS/Linux
+source venv/bin/activate  (for macs)
 
 ### 2. Install dependencies:
 pip install -r requirements.txt
