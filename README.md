@@ -1,22 +1,36 @@
+## FreshProduceDetector_Results
+<img width="642" height="540" alt="Image" src="https://github.com/user-attachments/assets/9d77db37-a810-47d6-843b-15f7d36b6056" />
+<img width="643" height="544" alt="Image" src="https://github.com/user-attachments/assets/a3728988-cfb3-4882-aa0f-7bdec570705e" />
+<img width="639" height="541" alt="Image" src="https://github.com/user-attachments/assets/3c83e0f2-f0a2-431e-b247-b0547fcc80d1" /> <img width="639" height="543" alt="Image" src="https://github.com/user-attachments/assets/deca4be3-a4ca-456e-ba74-a1ff9075cce4" />
+
 # FreshProduceDetector_CNN
 This project detects whether fruits are fresh or rotten using a Convolutional Neural Network (CNN). It identifies different fruit types and their freshness based on a dataset of images that it has been trained upon. 
 Currently, the model can classify the freshness of the following produce:
 **Apple**, **Mango**, **Orange**, **Potato**, and **Tomato**.
+
 
 ## About This Project
 I built a CNN using **TensorFlow** and **Keras** to classify fruit images into specific classes like **FreshApple**, **RottenApple**, etc., and also display the **confidence level** of the prediction.  
 
 I trained the model on a dataset of labeled fruit images, tested it on unseen images, and achieved strong accuracy in predictions.
 
-# Source Code Architecture
+## Source Code Architecture
+
 FreshProduceDetector_CNN/
 ├── src/
-│ ├── main.py # Training script – builds and trains the CNN
-│ ├── predict.py # Script for predicting class from a single image
-├── fruit_quality_model.h5 # Saved model file after training
-├── requirements.txt # Required Python packages for this project
-├── README.md # This file you’re reading now
+│   ├── main.py              # Training script – builds and trains the CNN  
+│   ├── predict.py           # Script for predicting class from a single image  
+├── fruit_quality_model.h5   # Saved model after training  
+├── requirements.txt         # Required Python packages  
+├── README.md                # Project description and usage instructions  
+├── training_logs.md         # Screenshots and notes from the training process  
 
+## Model Architecture
+<img width="640" height="299" alt="Image" src="https://github.com/user-attachments/assets/7edd66e5-38db-42bf-a3f9-7781546280da" />
+**Key Points:**
+- Two convolutional layers with max pooling
+- Dense layer for classification (with 10 output classes: each fruit/freshness combination)
+- 1.6 million trainable parameters
 
 ## How to Set Up and Run
 
@@ -26,7 +40,6 @@ source venv/bin/activate # macOS/Linux
 
 ### 2. Install dependencies:
 pip install -r requirements.txt
-
 
 ### 3. Train the CNN model:
 Go into the `src` folder and run:
@@ -39,16 +52,8 @@ python predict.py
 
 The script will print the predicted fruit class and confidence.
 
-
 ## Notes
 - Model trained on **64x64 pixel** images.
 - Pixel values are **normalized (0–1)** during training and prediction.
 - Class labels and their order **match exactly** the dataset folder structure used during training.
-
-
-
-
-
-
-
 
