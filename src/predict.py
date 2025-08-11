@@ -25,8 +25,8 @@ predicted_index = np.argmax(predictions[0])
 predicted_label = class_labels[predicted_index]
 confidence = round(100 * predictions[0][predicted_index], 2)
 
-print(f"🖼 Image: {img_path}")
-print(f"🔮 Prediction: {predicted_label} ({confidence}% confidence)")
+print(f" Image: {img_path}")
+print(f" Prediction: {predicted_label} ({confidence}% confidence)")
 
 import matplotlib.pyplot as plt
 img_plot = image.load_img(img_path)
