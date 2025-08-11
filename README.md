@@ -1,13 +1,18 @@
-## FreshProduceDetector_Results
-<img width="642" height="540" alt="Image" src="https://github.com/user-attachments/assets/9d77db37-a810-47d6-843b-15f7d36b6056" />
-<img width="643" height="544" alt="Image" src="https://github.com/user-attachments/assets/a3728988-cfb3-4882-aa0f-7bdec570705e" />
-<img width="639" height="541" alt="Image" src="https://github.com/user-attachments/assets/3c83e0f2-f0a2-431e-b247-b0547fcc80d1" /> <img width="639" height="543" alt="Image" src="https://github.com/user-attachments/assets/deca4be3-a4ca-456e-ba74-a1ff9075cce4" />
-
 # FreshProduceDetector_CNN
 This project detects whether fruits are fresh or rotten using a Convolutional Neural Network (CNN). It identifies different fruit types and their freshness based on a dataset of images that it has been trained upon. 
 Currently, the model can classify the freshness of the following produce:
 **Apple**, **Mango**, **Orange**, **Potato**, and **Tomato**.
 
+## FreshProduceDetector_Results
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/9d77db37-a810-47d6-843b-15f7d36b605e" width="320" height="270" />
+  <img src="https://github.com/user-attachments/assets/a3728988-cfb3-4882-aa0f-7bdec570705e" width="320" height="270" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/3c83e0f2-f0a2-431e-b247-b0547fcc80d1" width="320" height="270" />
+  <img src="https://github.com/user-attachments/assets/deca4be3-a4ca-456e-ba74-a1ff9075cce4" width="320" height="270" />
+</p>
 
 ## About This Project
 I built a CNN using **TensorFlow** and **Keras** to classify fruit images into specific classes like **FreshApple**, **RottenApple**, etc., and also display the **confidence level** of the prediction.  
