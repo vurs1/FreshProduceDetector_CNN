@@ -3,7 +3,7 @@ This project detects whether fruits are fresh or rotten using a Convolutional Ne
 Currently, the model can classify the freshness of the following produce:
 **Apple**, **Mango**, **Orange**, **Potato**, and **Tomato**.
 
-## FreshProduceDetector_Results
+## Results
 <p float="left">
   <img src="https://github.com/user-attachments/assets/9d77db37-a810-47d6-843b-15f7d36b605e" width="320" height="270" />
   <img src="https://github.com/user-attachments/assets/a3728988-cfb3-4882-aa0f-7bdec570705e" width="320" height="270" />
